@@ -1,7 +1,7 @@
 {
-	"token" : "<your_token>",
-	"counter_id": "<your_counter_id>",
-	"disable_ssl_verification_for_clickhouse": 0,
+	"token" : "AQAAAAAvFnvSAAPqusNDsMA2_E0AtGeweh_01H8",
+	"counter_id": "34625675",
+	"disable_ssl_verification_for_PostgreSQL": 0,
 	"visits_fields": [
 	    "ym:s:counterID",
 	    "ym:s:dateTime",
@@ -17,10 +17,10 @@
 	"log_level": "INFO",
 	"retries": 1,
 	"retries_delay": 60,
-	"clickhouse": {
-		"host": "http://localhost:8123",
-		"user": "",
-		"password": "",
+	"PostgreSQL": {
+		"host": "rc1b-3ljwo4xfvu8fp34e.mdb.yandexcloud.net",
+		"user": "user1",
+		"password": "analytica",
 		"visits_table": "visits_all",
 		"hits_table": "hits_all",
 		"database": "default"
